@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDCQ67W0QO-9cleICWUA2vYJTj3CLGXVmI",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "medidove-1e1cd.firebaseapp.com",
     projectId: "medidove-1e1cd",
     storageBucket: "medidove-1e1cd.appspot.com",
